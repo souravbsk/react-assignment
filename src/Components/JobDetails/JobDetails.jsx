@@ -8,10 +8,10 @@ import {
   MapPinIcon,
   PhoneIcon,
 } from "@heroicons/react/24/solid";
+import { addToCart } from "../../Utilites/FakeDb";
 
 const JobDetails = () => {
   const jobViewData = useLoaderData();
-  console.log(jobViewData);
   const {
     address,
     salary,
@@ -23,9 +23,19 @@ const JobDetails = () => {
     job_title,
     requirements,
   } = jobViewData;
+
+  // submit job data to database
+  const handleApplyJob = (id) => {
+    const isSubmit = addToCart(id);
+    console.log(isSubmit);
+    if(isSubmit){
+        
+    }
+  };
+
   return (
     <div>
-      <Banner></Banner>
+      <Banner>View Job Information</Banner>
       <div className="container mt-32">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="md:col-span-2 space-y-3">
@@ -63,7 +73,7 @@ const JobDetails = () => {
                     <p className="text-sm text-gray-500 font-medium">
                       <span className="text-gray-800 font-semibold">
                         Salary:
-                      </span>
+                      </span>{" "}
                       {salary} (Per Month)
                     </p>
                   </div>
@@ -113,7 +123,12 @@ const JobDetails = () => {
                 </div>
               </div>
             </div>
-            <button className="primary-btn w-full mt-6">Apply Now</button>
+            <button
+              onClick={() => handleApplyJob(id)}
+              className="primary-btn w-full mt-6"
+            >
+              Apply Now
+            </button>
           </div>
         </div>
       </div>
