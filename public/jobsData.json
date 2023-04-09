@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "company_logo": "https://i.ibb.co/84Jxr8M/google-1-1-1.png",
+    "job_title": "Frontend Developer",
+    "company_name": "Google LLc",
+    "location": "Remote",
+    "address": "Anywhere",
+    "job_type": "Full time",
+    "salary": "$80k - $100k",
+    "description": "We are seeking a frontend developer with experience in React and Redux to join our team.",
+    "responsibility": "Design and implement user-facing features, write unit tests, and collaborate with the backend team to integrate with APIs.",
+    "requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "3+ years of experience with React and Redux.",
+    "contact_info": {
+      "phone": "123-456-7890",
+      "email": "jobs@examplecompany1.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "https://i.ibb.co/dpmkd7b/tesla-9-1.png",
+    "job_title": "Backend Developer",
+    "company_name": "Tesla",
+    "location": "Onsite",
+    "address": "New York, NY",
+    "job_type": "Full time",
+    "salary": "$90k - $120k",
+    "description": "We are seeking a backend developer with experience in Node.js and MongoDB to join our team.",
+    "responsibility": "Design and implement server-side APIs, write unit tests, and collaborate with the frontend team to integrate with user-facing features.",
+    "requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "5+ years of experience with Node.js and MongoDB.",
+    "contact_info": {
+      "phone": "123-456-7890",
+      "email": "jobs@examplecompany2.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "https://i.ibb.co/sWfFYx4/netflix-4-1.png",
+    "job_title": "Full Stack Developer",
+    "company_name": "Netflix",
+    "location": "Remote",
+    "address": "Anywhere",
+    "job_type": "Full time",
+    "salary": "$100k - $130k",
+    "description": "We are seeking a full stack developer with experience in React, Node.js, and MongoDB to join our team.",
+    "responsibility": "Design and implement user-facing features and server-side APIs, write unit tests, and collaborate with the team to integrate with databases and other third-party services.",
+    "requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "7+ years of experience with React, Node.js, and MongoDB.",
+    "contact_info": {
+      "phone": "123-456-7890",
+      "email": "jobs@examplecompany3.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "https://i.ibb.co/TtjxgP1/Group-10021.png",
+    "job_title": "Data Scientist",
+    "company_name": "Airbnb",
+    "location": "Onsite",
+    "address": "Boston, MA",
+    "job_type": "Full time",
+    "salary": "$100k - $130k",
+    "description": "We are seeking a data scientist with experience in Python and machine learning to join our team.",
+    "responsibility": "Analyze large datasets, build predictive models, and collaborate with other teams to implement data-driven solutions.",
+    "requirements": "Master's or PhD in Computer Science, Statistics, or related field.",
+    "experiences": "5+ years of experience in data analysis and machine learning.",
+    "contact_info": {
+      "phone": "123-456-7890",
+      "email": "jobs@examplecompany5.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "https://i.ibb.co/hZLvXBc/microsoft-logo-png-2411.png",
+    "job_title": "DevOps Engineer",
+    "company_name": "Microsoft",
+    "location": "Remote",
+    "address": "Anywhere",
+    "job_type": "Full time",
+    "salary": "$90k - $120k",
+    "description": "We are seeking a DevOps engineer with experience in AWS and Docker to join our team.",
+    "responsibility": "Design and maintain scalable infrastructure, automate deployment processes, and monitor system performance.",
+    "requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "3+ years of experience in DevOps and cloud technologies.",
+    "contact_info": {
+      "phone": "123-456-7890",
+      "email": "jobs@examplecompany6.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "https://i.ibb.co/bKHCZtn/Meta-Logo.png",
+    "job_title": "Frontend Developer",
+    "company_name": "Meta",
+    "location": "Onsite",
+    "address": "New York, NY",
+    "job_type": "Part time",
+    "salary": "$80k - $100k",
+    "description": "We are seeking a frontend developer with experience in React and JavaScript to join our team.",
+    "responsibility": "Develop and maintain responsive web applications, collaborate with designers to implement user interfaces, and ensure high performance and usability.",
+    "requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "3+ years of experience in frontend development.",
+    "contact_info": {
+      "phone": "123-456-7890",
+      "email": "jobs@examplecompany7.com"
+    }
+  }
+]
