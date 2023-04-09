@@ -14,7 +14,7 @@ const Category = () => {
   return (
     <section className="mt-32 container">
       <div className="text-center space-y-2">
-        <h2 className="font-bold text-slate-700 text-4xl">Job Category List</h2>
+        <h2 className="font-bold text-slate-700 text-2xl  md:text-4xl">Job Category List</h2>
         <p className="text-slate-500">
           Explore thousands of job opportunities with all the information you
           need. Its your future

@@ -9,6 +9,7 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/solid";
 import { addToCart } from "../../Utilites/FakeDb";
+import { toast } from "react-hot-toast";
 
 const JobDetails = () => {
   const jobViewData = useLoaderData();
@@ -29,7 +30,10 @@ const JobDetails = () => {
     const isSubmit = addToCart(id);
     console.log(isSubmit);
     if(isSubmit){
-        
+        toast.error("already you apply this job")
+    }
+    else{
+        toast.success("Apply Success")
     }
   };
 

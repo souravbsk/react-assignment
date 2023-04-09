@@ -2,7 +2,7 @@ import React from "react";
 import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
-const JobCard = ({ job}) => {
+const AppliedJobList = ({ job }) => {
   const {
     company_logo,
     company_name,
@@ -14,11 +14,11 @@ const JobCard = ({ job}) => {
     job_title,
   } = job;
   return (
-    <div className="md:p-10 p-5 border rounded-lg">
-      <figure className="mb-8">
+    <div className="p-7 items-stretch border flex-col md:flex-row flex justify-between md:items-center gap-8 rounded-lg">
+      <figure className="bg-gray-200 w-60 h-60 rounded-md grid place-items-center">
         <img className="w-32 h-10 object-fill" src={company_logo} alt="" />
       </figure>
-      <div>
+      <div className="mr-auto">
         <h3 className="font-semibold text-2xl text-slate-700">{job_title}</h3>
         <p className="text-lg font-semibold mt-2 text-gray-500">
           {company_name}
@@ -31,7 +31,7 @@ const JobCard = ({ job}) => {
             {job_type}
           </button>
         </div>
-        <div className="mt-4 flex-col md:flex-row flex md:items-center gap-3 md:gap-6">
+        <div className="mt-4 flex-col md:flex-row flex md:items-center gap-6">
           <p className="flex items-center gap-2">
             <MapPinIcon className="w-5 h-5 text-gray-500"></MapPinIcon>{" "}
             <span className="text-base font-semibold text-gray-500">
@@ -45,19 +45,14 @@ const JobCard = ({ job}) => {
             </span>
           </p>
         </div>
-        <div className="mt-6">
+      </div>
+        <div>
           <Link to={`/jobs/${id}`}>
-            <button
-              
-              className="primary-btn"
-            >
-              View Details
-            </button>
+            <button className="primary-btn">View Details</button>
           </Link>
         </div>
-      </div>
     </div>
   );
 };
 
-export default JobCard;
+export default AppliedJobList;

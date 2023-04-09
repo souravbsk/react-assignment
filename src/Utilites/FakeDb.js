@@ -32,4 +32,4 @@ const getToCart = () => {
 
 
 
-export {addToCart}
+export {addToCart,getToCart}

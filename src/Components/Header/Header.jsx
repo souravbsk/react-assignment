@@ -26,11 +26,12 @@ const Header = () => {
             <NavLink className="text-md text-slate-500">Statistics</NavLink>
           </li>
           <li>
-            <NavLink className="text-md text-slate-500">Blog</NavLink>
+            <NavLink to="/appliedjobs" className="text-md text-slate-500">Applied Jobs</NavLink>
           </li>
           <li>
-            <NavLink className="text-md text-slate-500">Home</NavLink>
+            <NavLink className="text-md text-slate-500">Blog</NavLink>
           </li>
+          
         </ul>
         <div className="hidden md:block">
           <button className="primary-btn">
