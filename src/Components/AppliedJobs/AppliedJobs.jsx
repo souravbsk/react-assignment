@@ -36,6 +36,10 @@ const AppliedJobs = () => {
           </select>
         </div>
         <div className=" flex flex-col gap-6 mt-8">
+          {
+            storeApplyJob.length === 0 && <h1 className=" text-xl md:text-3xl font-semibold text-center">No Job Data Found !!!</h1>
+          }
+          
           {filterValue.map((job) => (
             <AppliedJobList key={job.id} job={job}></AppliedJobList>
           ))}
