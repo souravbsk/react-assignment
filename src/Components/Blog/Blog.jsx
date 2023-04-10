@@ -1,40 +1,69 @@
-import React from "react";
+import React, { useRef } from "react";
 import Banner from "../Banner/Banner";
 
 const Blog = () => {
+
   return (
     <div>
       <Banner>Blogs</Banner>
       <div className="container space-y-5 mt-8 md:mt-32">
         <div className="space-y-2">
-          <h2 className="font-semibold text-2xl">What is Context API ?</h2>
+          <h2 className="font-semibold text-2xl">
+            When should you use context API? ?
+          </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam
-            exercitationem veniam consequatur modi voluptate vero, consequuntur
-            inventore nemo sed quidem autem praesentium magni deserunt eum illum
-            earum, suscipit velit.
+            context api is react build in power full function . we can use it to
+            pass value without any props drilling. why we can easily manage our
+            state using context api to pass value. if we have data which shared
+            between multiple component that are not directly connected each
+            other. we can use context api to pass data very easily . also
+            avoiding props drilling. if we want to props pass down to deeply
+            multiple nested component . we can easily manage this using context
+            api without manually props drilling,
+            <br />
+            first we need a to import createContext(). must be this hook call
+            with a default value outside function component . and store it in a
+            variable finally export the variable. after export we need to access
+            this. for access this data we Want to import another hook which is
+            useContext() pass the parameter createContext variableName . like
+            useContext(varibaleName); for pass data we want to set a provider .
+            parent component all jsx element wrap with variableName.provider and
+            pass the value inside value property.
           </p>
         </div>
         <div className="space-y-2">
-          <h2 className="font-semibold text-2xl">What is Custom Hook ?</h2>
+          <h2 className="font-semibold text-2xl">What is a custom hook?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam
-            exercitationem veniam consequatur modi voluptate vero, consequuntur
-            inventore nemo sed quidem autem praesentium magni deserunt eum illum
-            earum, suscipit velit.
+            Custom hook is a reusable function . where we can write some js code
+            which is use multiple components. it is like react build-in hook..
+            but we write to create this custom hook . if we need same
+            functionality and also return same output .. we can create a js file
+            . and write the functionality code. and finally where we need we can
+            import this custom hook from multiply component. it's actually using
+            for avoiding repeated code.
+            <br />
+            custom hooks start with the prefix "use" and follow the some rules
+            as react's built-in hook, such as useState or useEffect. example:{" "}
+            <strong>where we need</strong>
           </p>
         </div>
         <div className="space-y-2">
-          <h2 className="font-semibold text-2xl">What is useRef ?</h2>
+          <h2 className="font-semibold text-2xl">What is useRef?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam
-            exercitationem veniam consequatur modi voluptate vero, consequuntur
-            inventore nemo sed quidem autem praesentium magni deserunt eum illum
-            earum, suscipit velit.
+            useRef is a another react build in hook .. we can use it to get our
+            node element value. react not allow to manipulate dom element . but
+            if we need to get dom element value or text and manipulate it. we
+            can do this using useRef.
+            <br />
+            first we need to import useRef from react and store in a variable.
+            for get value or text we need to link up between useRef and target
+            element. useRef hook have a attribute which is ref. we use this ref
+            attribute to link up target element and useRef. after link up we can
+            get element value text..and easily manipulate .
           </p>
         </div>
         <div className="space-y-2">
-          <h2 className="font-semibold text-2xl">What is useMemo ?</h2>
+          <h2 className="font-semibold text-2xl">What is useMemo?</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam
             exercitationem veniam consequatur modi voluptate vero, consequuntur
