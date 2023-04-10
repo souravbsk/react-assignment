@@ -70,13 +70,13 @@ const Blog = () => {
           <h2 className="font-semibold text-2xl">What is useMemo?</h2>
           <p>
             useMemo is an another build in react hook .. we can use it to
-            optimize performance our web site. if we write a which is
+            optimize performance our web site. if we write a code which is
             need to calculate high time... our website is waiting for render
             after calculate done; it was a bad experience for user .. website
             loading time is increase for this calculate.
             we can apply this code inside useMemo to stop the loading time. then no worry for lazy render;
           
-            if we want to avoid unnecessary re-render component we can use this hook.
+            if we want to avoid unnecessary re-render component we can use also this useMemo hook.
             
           </p>
         </div>
