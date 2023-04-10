@@ -12,7 +12,6 @@ import {
 } from "recharts";
 
 const MarksAreaChart = ({ assignmentData }) => {
-  console.log(assignmentData);
   return (
     <div className=" md:w-8/12 mx-auto">
       <ResponsiveContainer height={250}>
