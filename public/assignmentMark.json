@@ -1,10 +1,42 @@
 [
-  { "id": 1, "marks": 85, "assignmentDate": "2022-01-01" },
-  { "id": 2, "marks": 72, "assignmentDate": "2022-01-05" },
-  { "id": 3, "marks": 90, "assignmentDate": "2022-01-10" },
-  { "id": 4, "marks": 68, "assignmentDate": "2022-01-15" },
-  { "id": 5, "marks": 78, "assignmentDate": "2022-01-20" },
-  { "id": 6, "marks": 94, "assignmentDate": "2022-01-25" },
-  { "id": 7, "marks": 80, "assignmentDate": "2022-01-30" },
-  { "id": 8, "marks": 89, "assignmentDate": "2022-02-05" }
+  {
+    "assignmentId": 1,
+    "marks": 60,
+    "assignmentName": "one"
+  },
+  {
+    "assignmentId": 2,
+    "marks": 60,
+    "assignmentName": "two"
+  },
+  {
+    "assignmentId": 3,
+    "marks": 60,
+    "assignmentName": "three"
+  },
+  {
+    "assignmentId": 4,
+    "marks": 60,
+    "assignmentName": "four"
+  },
+  {
+    "assignmentId": 5,
+    "marks": 42,
+    "assignmentName": "five"
+  },
+  {
+    "assignmentId": 6,
+    "marks": 60,
+    "assignmentName": "six"
+  },
+  {
+    "assignmentId": 7,
+    "marks": 60,
+    "assignmentName": "seven"
+  },
+  {
+    "assignmentId": 8,
+    "marks": 60,
+    "assignmentName": "eight"
+  }
 ]
