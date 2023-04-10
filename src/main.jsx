@@ -9,6 +9,7 @@ import ViewJobData from './Utilites/ViewJobData'
 import { Toaster } from 'react-hot-toast'
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs'
 import { AppliedJobData } from './Utilites/AppliedJobData'
+import Statistics from './Components/Statistics/Statistics'
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         path:"appliedjobs",
         element:<AppliedJobs></AppliedJobs>,
         loader : AppliedJobData
+      },
+      {
+        path:"statistics",
+        element:<Statistics></Statistics>
       }
     ]
   }
