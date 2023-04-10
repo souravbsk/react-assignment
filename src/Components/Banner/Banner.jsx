@@ -1,5 +1,4 @@
 import React from 'react';
-import headerLeftBg from "../../assets/All Images/Vector.png"
 
 const Banner = ({children}) => {
 

@@ -8,7 +8,7 @@ const Header = () => {
     <header className=" z-40">
       <nav className="flex container flex-col md:flex-row gap-4 md:gap-0 md:items-center py-6 justify-between">
         <div className="flex items-center justify-between flex-row">
-          <h4 className="text-xl md:text-3xl font-semibold">Job-Cafe</h4>
+          <h4 className="text-xl md:text-4xl font-bold">Job-Cafe</h4>
           <div className=" md:hidden flex items-center gap-4">
             <button className="bg-gradient-to-r from-indigo-400 to-violet-400 px-2 text-sm text-white font-semibold py-2 rounded-md">
               Star Applying
