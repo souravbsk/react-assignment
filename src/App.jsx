@@ -11,7 +11,7 @@ function App() {
       <div>
         <Header></Header>
         {navigation.state === "loading" && <LoadingPage></LoadingPage>}
-        <main className="mb-32">
+        <main className="md:mb-32 mb-8">
           <Outlet></Outlet>
         </main>
         <Footer></Footer>

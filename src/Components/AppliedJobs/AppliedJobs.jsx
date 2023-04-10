@@ -20,7 +20,7 @@ const AppliedJobs = () => {
     <div>
       <Banner>Your Applied Jobs List</Banner>
       <div className="container">
-        <div className="text-right mt-32">
+        <div className="text-right mt-8 md:mt-32">
           <select
             name=""
             onChange={handleFilterValue}

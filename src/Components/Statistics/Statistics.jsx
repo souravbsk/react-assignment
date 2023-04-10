@@ -13,7 +13,7 @@ const Statistics = () => {
   return (
     <div>
       <Banner>My Assignment Results</Banner>
-      <div className="mt-32 container space-y-6">
+      <div className="md:mt-32 mt-8 container space-y-6">
         <h2 className="text-2xl font-semibold text-center">
           Average Marks: {averageMarks}
         </h2>

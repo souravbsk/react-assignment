@@ -40,7 +40,7 @@ const JobDetails = () => {
   return (
     <div>
       <Banner>View Job Information</Banner>
-      <div className="container mt-32">
+      <div className="container mt-8 md:mt-32">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="md:col-span-2 space-y-3">
             <p className="text-base text-gray-500">

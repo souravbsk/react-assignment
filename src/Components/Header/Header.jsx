@@ -5,7 +5,7 @@ import { Bars3Icon } from "@heroicons/react/24/solid";
 const Header = () => {
     const [toggle,setToggle] = useState(false);
   return (
-    <header className=" z-40">
+    <header className=" md:absolute static right-0 left-0 top-0">
       <nav className="flex container flex-col md:flex-row gap-4 md:gap-0 md:items-center py-6 justify-between">
         <div className="flex items-center justify-between flex-row">
           <h4 className="text-xl md:text-4xl font-bold">Job-Cafe</h4>
@@ -29,7 +29,7 @@ const Header = () => {
             <NavLink to="/appliedjobs" className="text-md text-slate-500 font-semibold">Applied Jobs</NavLink>
           </li>
           <li>
-            <NavLink className="text-md text-slate-500 font-semibold">Blog</NavLink>
+            <NavLink to="/blog" className="text-md text-slate-500 font-semibold">Blog</NavLink>
           </li>
           
         </ul>

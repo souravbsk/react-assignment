@@ -14,7 +14,7 @@ import {
 const MarksAreaChart = ({ assignmentData }) => {
   console.log(assignmentData);
   return (
-    <div className=" md:w-6/12 mx-auto">
+    <div className=" md:w-8/12 mx-auto">
       <ResponsiveContainer height={250}>
         <AreaChart  data={assignmentData}>
           <CartesianGrid strokeDasharray="3 3" />

@@ -15,7 +15,7 @@ const FeaturedJobs = () => {
   }
 
   return (
-    <section className="mt-32 container">
+    <section className="md:mt-32 mt-8 container">
       <div className="text-center space-y-2">
         <h2 className="font-bold text-slate-700 text-2xl  md:text-4xl">
           Featured Jobs
