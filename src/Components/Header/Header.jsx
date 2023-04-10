@@ -18,18 +18,18 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <ul className={`flex flex-col absolute md:static md:flex-row bg-gray-400 md:bg-transparent md:items-center p-5 md:p-0 top-20 transition-left duration-300 gap-3 ${toggle ? "left-0" : "-left-36"}`}>
+        <ul className={`flex flex-col absolute md:static md:flex-row bg-gray-100 h-screen md:h-auto md:bg-transparent md:items-center p-5 md:p-0 top-20 transition-left duration-300 gap-3 ${toggle ? "left-0" : "-left-36"}`}>
           <li>
-            <NavLink to="/" className="text-md text-slate-500">Home</NavLink>
+            <NavLink to="/" className="text-md text-slate-500 font-semibold">Home</NavLink>
           </li>
           <li>
-            <NavLink to="statistics" className="text-md text-slate-500">Statistics</NavLink>
+            <NavLink to="statistics" className="text-md text-slate-500 font-semibold">Statistics</NavLink>
           </li>
           <li>
-            <NavLink to="/appliedjobs" className="text-md text-slate-500">Applied Jobs</NavLink>
+            <NavLink to="/appliedjobs" className="text-md text-slate-500 font-semibold">Applied Jobs</NavLink>
           </li>
           <li>
-            <NavLink className="text-md text-slate-500">Blog</NavLink>
+            <NavLink className="text-md text-slate-500 font-semibold">Blog</NavLink>
           </li>
           
         </ul>

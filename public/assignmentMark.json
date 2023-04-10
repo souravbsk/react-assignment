@@ -2,41 +2,41 @@
   {
     "assignmentId": 1,
     "marks": 60,
-    "assignmentName": "one"
+    "assignmentName": "A one"
   },
   {
     "assignmentId": 2,
     "marks": 60,
-    "assignmentName": "two"
+    "assignmentName": "A two"
   },
   {
     "assignmentId": 3,
     "marks": 60,
-    "assignmentName": "three"
+    "assignmentName": "A three"
   },
   {
     "assignmentId": 4,
     "marks": 60,
-    "assignmentName": "four"
+    "assignmentName": "A four"
   },
   {
     "assignmentId": 5,
     "marks": 42,
-    "assignmentName": "five"
+    "assignmentName": "A five"
   },
   {
     "assignmentId": 6,
     "marks": 60,
-    "assignmentName": "six"
+    "assignmentName": "A six"
   },
   {
     "assignmentId": 7,
     "marks": 60,
-    "assignmentName": "seven"
+    "assignmentName": "A seven"
   },
   {
     "assignmentId": 8,
     "marks": 60,
-    "assignmentName": "eight"
+    "assignmentName": "A eight"
   }
 ]

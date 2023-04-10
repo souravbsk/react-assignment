@@ -5,6 +5,9 @@ body{
   font-family: 'Manrope', sans-serif;
 }
 
+.active{
+@apply text-indigo-300
+}
 .primary-btn {
   @apply bg-gradient-to-r from-indigo-400 to-violet-400 px-3 text-white font-semibold py-2 rounded-md
 }

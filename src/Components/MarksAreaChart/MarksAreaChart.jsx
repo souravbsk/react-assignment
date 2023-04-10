@@ -4,6 +4,7 @@ import {
   AreaChart,
   CartesianAxis,
   CartesianGrid,
+  Legend,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -13,14 +14,17 @@ import {
 const MarksAreaChart = ({ assignmentData }) => {
   console.log(assignmentData);
   return (
-    <div>
-        <AreaChart width={900} height={400} data={assignmentData}>
-          <CartesianGrid />
+    <div className=" md:w-6/12 mx-auto">
+      <ResponsiveContainer height={250}>
+        <AreaChart  data={assignmentData}>
+          <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="assignmentName" />
           <YAxis dataKey="marks" />
-          <Tooltip />
+          <Tooltip/>
+          <Legend></Legend>
           <Area dataKey="marks" stroke="#8884d8" fill="#8884d8" />
         </AreaChart>
+      </ResponsiveContainer>
     </div>
   );
 };
