@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import Banner from "../Banner/Banner";
 
 const Blog = () => {
-
   return (
     <div>
       <Banner>Blogs</Banner>
@@ -38,19 +37,19 @@ const Blog = () => {
             which is use multiple components. it is like react build-in hook..
             but we write to create this custom hook . if we need same
             functionality and also return same output .. we can create a js file
-            . and write the functionality code. and finally where we need we can
-            import this custom hook from multiply component. it's actually using
-            for avoiding repeated code.
+            . and write the functionality code. and finally where we need to
+            use. we can import this custom hook inside component and use it.
+            it's actually using for avoiding repeated code.
             <br />
             custom hooks start with the prefix "use" and follow the some rules
-            as react's built-in hook, such as useState or useEffect. example:{" "}
-            <strong>where we need</strong>
+            as react's built-in hook, such as useState or useEffect. example:
+            <strong>useCustomHook()</strong>
           </p>
         </div>
         <div className="space-y-2">
           <h2 className="font-semibold text-2xl">What is useRef?</h2>
           <p>
-            useRef is a another react build in hook .. we can use it to get our
+            useRef is an another react build in hook .. we can use it to get our
             node element value. react not allow to manipulate dom element . but
             if we need to get dom element value or text and manipulate it. we
             can do this using useRef.
@@ -59,16 +58,26 @@ const Blog = () => {
             for get value or text we need to link up between useRef and target
             element. useRef hook have a attribute which is ref. we use this ref
             attribute to link up target element and useRef. after link up we can
-            get element value text..and easily manipulate .
+            get element value text..and easily manipulate it.
+            <strong>
+              if you really need to manipulate dom then use useRef other wish
+              must be avoid this hook.. because react can't allow to directly
+              manipulate dom
+            </strong>
           </p>
         </div>
         <div className="space-y-2">
           <h2 className="font-semibold text-2xl">What is useMemo?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam
-            exercitationem veniam consequatur modi voluptate vero, consequuntur
-            inventore nemo sed quidem autem praesentium magni deserunt eum illum
-            earum, suscipit velit.
+            useMemo is an another build in react hook .. we can use it to
+            optimize performance our web site. if we write a which is
+            need to calculate high time... our website is waiting for render
+            after calculate done; it was a bad experience for user .. website
+            loading time is increase for this calculate.
+            we can apply this code inside useMemo to stop the loading time. then no worry for lazy render;
+          
+            if we want to avoid unnecessary re-render component we can use this hook.
+            
           </p>
         </div>
       </div>
