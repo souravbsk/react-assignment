@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import { JobsContext } from "../../App";
 import JobCard from "../JobCard/JobCard";
 import { useLoaderData } from "react-router-dom";
 

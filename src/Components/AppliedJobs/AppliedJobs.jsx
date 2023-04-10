@@ -26,8 +26,9 @@ const AppliedJobs = () => {
             onChange={handleFilterValue}
             className="bg-gray-100 py-2 px-3 duration-200 font-semibold rounded-md"
             id=""
+            defaultValue={"Select"}
           >
-            <option selected disabled value="">
+            <option value="Select"  disabled>
               Filter By
             </option>
             <option value="remote">Remote</option>
